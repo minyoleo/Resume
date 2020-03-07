@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title></title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!--  Paper Dashboard core CSS    -->
+    <link href="assets/css/paper-dashboard.css" rel="stylesheet"/>
+
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
+
+
+    <!--  Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+    <link href="assets/css/themify-icons.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar" >
+    	<div class="sidebar-wrapper">
+            <div class="logo">
+                <a href="#profile" class="simple-text">
+                    Resume
+                </a>
+            </div>
+
+			<div class="collapse navbar-collapse">	
+				<ul class="nav">
+					<li>
+						<a href="#profile">
+							<i class="ti-face-smile"></i>
+							<p>Profile</p>
+						</a>
+					</li>
+					<li>
+						<a href="#experience">
+							<i class="ti-direction-alt"></i>
+							<p>Experience</p>
+						</a>
+					</li>
+					<li>
+						<a href="#skill">
+							<i class="ti-hummer"></i>
+							<p>Skill</p>
+						</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="ti-cloud-down"></i>
+							<p>Portfolio</p>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#project6">Sentiment Classification</a></li>
+							<li><a href="#project5">Flower Classification</a></li>
+							<li><a href="#project4">Python爬蟲</a></li>
+							<li><a href="#project3">商品資料管理系統</a></li>
+							<li><a href="#project2">電影影評介紹網站</a></li>
+							<li><a href="#project1">成績分布計算系統</a></li>
+						</ul>  
+					</li>
+				</ul>
+			</div>
+    	</div>
+    </div>
+
+    <div class="main-panel">
+		<nav class="navbar navbar-default" id="profile"><a name="profile"></a>
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle">
+						<span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar bar1"></span>
+                        <span class="icon-bar bar2"></span>
+                        <span class="icon-bar bar3"></span>
+                    </button>
+                    <a class="navbar-brand" href="#profile">Profile</a>
+                </div>
+				
+                <div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+                        <form>
+						<input class="btn btn-info btn-fill" type="button" value="聯絡我" onclick="self.location.href='mailto:minyoleo@gmail.com'">
+						</form>						
+                    </ul>
+				</div>
+            </div>
+        </nav>
+
+
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-5">
+                        <div class="card card-user">
+                            <div class="image">
+                                <img src="assets/img/background.jpg" alt="..."/>
+                            </div>
+                            <div class="content">
+                                <div class="author">
+                                  <img class="avatar border-white" src="assets/img/face.png" alt="..."/>
+                                  <h4 class="title">李銘祐<br>
+                                     <small>Leo M. Lee</small>
+                                  </h4>
+                                </div>
+                                <p class="description text-center">
+									<span class="ti-crown"><small> 1997/10/29</small></span><br>
+                                    <span class="ti-home"><small> Kaohsiung，Taiwan</small></span>
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="text-center">
+                                <div class="row">
+                                    <div class="col-md-12">
+										<div class="parentWrap">
+											<div class="parent">
+												<div class="child">
+													<div class="in">
+													<a href="mailto:minyoleo@gmail.com">
+														<span class="ti-email" style="font-size:20px; color:black;"></span>
+														<br>
+														<span class="icon-name">&nbsp;&nbsp;minyoleo@gmail.com</span>
+													</a>
+													</div>
+												</div>
+												
+												<div class="child">
+													<div class="in">
+													<a href="https://www.facebook.com/profile.php?id=100003128195426&ref=bookmarks">
+														<span class="ti-facebook" style="font-size:20px; color:black;"></span>
+													</a>
+													</div>
+												</div>
+												
+												<div class="child">
+													<div class="in">
+													<a href="https://github.com/minyoleo" target="_blank">
+														<span class="ti-github" style="font-size:20px; color:black;"></span>
+													</a>
+													</div>
+												</div>
+												
+												<div class="child">
+													<div class="in">
+													<span class="ti-mobile" style="font-size:20px"></span>	
+													<br>
+													<span class="icon-name">0963907179</span>
+													</div>
+												</div>                
+											</div>    
+										</div>										
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-7">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Introduction</h4>
+                            </div>
+                            <div class="content">
+								<div class="row">
+									<div class="col-md-12">
+										<small>
+										出生在高雄，從小受到熱情陽光照料，我是李銘祐，就像這裡的天氣一樣，熱情外向，我主動的個性，喜歡認識別人，與人相處。對我來說，最重要的人生態度就是「積極跟努力」。我總是盡我所能地去爭取，這不僅使我學習到更多，還經常讓我獲得意料之外的收穫，一個積極的人，代表擁有永不放棄的能力。當機會出現在眼前時，我會努力嘗試，我相信只要盡自己最大的努力挑戰過，就能過一個無悔的人生。
+										<br><br>
+										目前就讀國立中山大學財務管理學系，因為對於軟體開發的熱情，所以在大二時開始加修資訊管理學系的課程，往雙主修的方向努力，有關程式開發(C、Python)、網頁開發(HTML、CSS、JavaScript、PHP)、以及後端資料處理(MySQL)，都有學習過相關課程。
+										</small>
+									</div> 
+								</div>
+								<div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-8 col-md-7">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Education</h4>
+                            </div>
+                            <div class="content">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-2" style="float:left">
+                                            <label>School</label>
+                                            <h6>國立中山大學</h6>	
+											<br>
+											<h6>高雄中學</h6>    
+                                        </div>
+                                        <div class="col-md-2" style="float:left">                                           
+                                            <label>Major</label>
+                                            <h6>財務管理學系</h6>  
+											<br>
+											<h6>無</h6>       
+                                        </div>
+										<div class="col-md-2" style="float:left">                                      
+                                            <label>&nbsp</label>
+                                            <h6>資訊管理學系</h6>
+											<br>
+											<h6>無</h6>       
+                                        </div>
+                                        <div class="col-md-3" style="float:left">                                     
+                                            <label>Period</label>
+                                            <h6>2016/09-2021/07</h6>
+											<br>
+											<h6>2013/09-2016/07</h6>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</div>
+		
+
+		
+		<nav class="navbar navbar-default" id="experience"><a name="experience"></a>
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar bar1"></span>
+                        <span class="icon-bar bar2"></span>
+                        <span class="icon-bar bar3"></span>
+                    </button>
+                    <a class="navbar-brand" href="#experience">Experience</a>
+                </div>
+				
+				<div class="collapse navbar-collapse"></div>
+            </div>
+        </nav>
+
+
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Work</h4>
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-striped">
+                                    <thead>
+                                    	<th>Company</th>
+                                    	<th>Period</th>
+                                    	<th>Position</th>
+                                    	<th>Description</th>
+                                    </thead>
+                                    <tbody>
+										<tr>
+                                        	<td>中山大學校務研究辦公室</td>
+                                        	<td>2019/08~至今</td>
+                                        	<td>資訊兼任助理</td>
+                                        	<td>協助校務研究計畫資訊系統開發及建置。</td>
+											<td style="white-space:nowrap">工作內容：<br>撰寫爬蟲程式抓取資料</td>
+										</tr>
+										
+										<tr>
+                                        	<td>台東縣長濱國中</td>
+                                        	<td>2018/09~2019/01</td>
+                                        	<td>課輔人員</td>
+                                        	<td>結合教育、科技、偏鄉課輔、與學童關懷等面向，配合數位學習的趨勢，以遠距課輔的學習模式，提升偏鄉學童的學習品質及知識分享機會。</td>
+											<td style="white-space:nowrap">科目：<br>國二數學</td>
+										</tr>
+										
+                                        <tr>
+                                        	<td>高雄電影館</td>
+                                        	<td>2017/07~2018/01</td>
+                                        	<td>現場人員</td>
+                                        	<td>因為平日熱愛電影的關係，開始在高雄電影館打工，還因此參與到高雄電影節的舉辦。</td>
+											<td style="white-space:nowrap">工作內容：<br>(1) 票券(商品)販售<br>(2) 播映、場控<br>(3) 服務台接待</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+					
+					<div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Club</h4>
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                                <table class="table table-striped">
+                                    <thead>
+                                    	<th>Name</th>
+                                    	<th>Period</th>
+                                    	<th>Position</th>
+                                    	<th>Description</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                        	<td>勁舞社</td>
+                                        	<td>2016/12~2018/06</td>
+                                        	<td>教學</td>
+                                        	<td>上大學後，因為想要嘗試不同興趣，所以選擇加入勁舞社，開啟人生中另一片風景。</td>
+											<td style="white-space:nowrap">比賽成績：<br>(1) 國際文化嘉年華 季軍<br>(2) 嘉南雄盃新生組 4強<br>(3) 正興城灣盃 16強</td>
+                                        </tr>
+										<tr>
+                                        	<td>管樂社</td>
+                                        	<td>2013/9~2014/01</td>
+                                        	<td>打擊</td>
+                                        	<td>高一時，決定拿起鼓棒，加入擊樂分部。上台表演的經驗，一直帶給我很大的幫助，培養我面對人群時不怯場的個性，而音樂本身則是我最好的抒發管道。</td>
+											<td style="white-space:nowrap">參與表演：<br>(1) 校慶樂隊<br>(2) 小型成果展</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		
+		
+		<nav class="navbar navbar-default" id="skill"><a name="skill"></a>
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar bar1"></span>
+                        <span class="icon-bar bar2"></span>
+                        <span class="icon-bar bar3"></span>
+                    </button>
+                    <a class="navbar-brand" href="#skill">Skill</a>
+                </div>
+				
+				<div class="collapse navbar-collapse"></div>
+            </div>
+        </nav>
+		
+		
+		<div class="content">
+			<div class="container-fluid">
+				<div class="row">
+                    <div class="col-md-7">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Programming</h4>
+                            </div>
+                            <div class="listSkill">
+								<li>
+								  <div class="circle">
+									<div class="p90"></div>
+									<div class="p180"></div>
+									<div class="p270"></div>
+									<div class="p360"></div>
+								  </div>
+								  Python
+								</li>
+								
+								<li>
+									<div class="circle">
+									  <div class="p90"></div>
+									  <div class="p180"></div>
+									  <div class="p270"></div>
+									  <div class="p360"></div>
+									</div>
+									R
+								</li>
+
+								<li>
+								  <div class="circle">
+									<div class="p90"></div>
+									<div class="p180"></div>
+									<div class="p270"></div>
+									<div class="p360"></div>
+								  </div>
+								  C
+								</li>
+								
+								<li>
+								  <div class="circle">
+									<div class="p90"></div>
+									<div class="p180"></div>
+									<div class="p270"></div>
+								  </div>
+								  HTML
+								</li>
+								
+								<li>
+								  <div class="circle">
+									<div class="p90"></div>
+									<div class="p180"></div>
+									<div class="p270"></div>
+								  </div>
+								  CSS
+								</li>
+								
+								<li>  
+								  <div class="circle">
+									<div class="p90"></div>
+									<div class="p180"></div>
+								  </div>
+								  PHP
+								</li>
+								
+								<li> 
+								  <div class="circle">
+									<div class="p90"></div>
+									<div class="p180"></div>
+								  </div>
+								  MySQL
+								</li>
+								
+								<li> 
+								  <div class="circle">
+									<div class="p90"></div>
+									<div class="p180"></div>
+									<div class="p270"></div>
+								  </div>
+								  Git
+								</li>
+                            </div>
+                        </div>
+                    </div>
+					
+					
+                    <div class="col-md-5">
+                        <div class="card ">
+                            <div class="header">
+                                <h4 class="title">Language</h4>
+                            </div>
+                            <div class="listProgram">
+								<li>中文
+								  <div class="bar">
+									<div class="value p100"></div>
+								  </div>
+								</li>
+								
+								<li>台語
+								  <div class="bar">
+									<div class="value p100"></div>
+								  </div>
+								</li>
+				
+								<li>英文
+								  <div class="bar">
+									<div class="value p70"></div>
+								  </div>
+								</li>
+								<div class="row">
+									<div class="col-md-12">
+										<li><br><!--成績: -->
+											<div class="bar2">
+											<!-- TOEIC多益 準備中
+											<br>
+											TOEFL托福 準備中 -->
+											</div>
+										</li>
+									</div>
+								</div>
+								<br><br>
+                            </div>
+                        </div>
+                    </div>
+					
+					
+					<div class="col-md-4">
+                        <div class="card">
+                            <div class="header">
+								<h4 class="title">Data processing</h4>
+								<div class="content">
+									<div class="row">
+										<div class="col-md-12">
+											<small>
+											參與過有關學校宿舍滿意度調查之資料分析，及各式案例之財務報表分析和實作。
+											<br><br>
+											Excel：<br>
+											(1)  資料分析 (敘述統計、t 檢定、F 檢定)
+											<br>
+											(2)  模擬分析 (敏感度分析)
+											<br>
+											(3)  圖表繪製
+											</small>
+										</div>
+									</div>
+								</div>
+                            </div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Finance</h4>
+								<div class="content">
+									<div class="row">
+										<div class="col-md-12">
+											<small>
+											系上給予的扎實訓練，讓我已有能力處理基本的會計、出納及財務相關作業。
+											<br><br>
+											修畢科目：<br>
+											(1)  初級會計學/中級會計學
+											<br>
+											(2)  經濟學
+											<br>
+											(3)  財務管理
+											</small>
+										</div>
+									</div>
+								</div>
+                            </div>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Communication</h4>
+								<div class="content">
+									<div class="row">
+										<div class="col-md-12">
+											<small>
+											過去的工作及教學經驗，培養了我
+											<br>
+											(1) 獨立解決問題的能力：
+											<br>
+											e.g.應付民眾的各種臨時狀況、解決學生突如其來問題
+											<br>
+											(2) 與人溝通合作的能力：
+											<br>
+											e.g.舉辦高雄電影節時，和許多不同的單位及人手配合
+											<br>
+											</small>
+										</div>
+									</div>
+								</div>
+                            </div>
+						</div>
+					</div>
+                </div>
+			</div>
+		</div>
+		
+		
+		
+		<nav class="navbar navbar-default" id="portfolio">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar bar1"></span>
+                        <span class="icon-bar bar2"></span>
+                        <span class="icon-bar bar3"></span>
+                    </button>
+                    <a class="navbar-brand" href="#portfolio">Portfolio</a>
+                </div>
+				
+				<div class="collapse navbar-collapse"></div>
+            </div>
+        </nav>
+
+
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+					<div class="col-md-12"><a name="project6"></a>
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Sentiment Classification</h4>
+                            </div>
+                            <div class="content">
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-md-5">
+											<img src="assets/img/project6.png" width="250px" alt="..."/>
+										</div>
+										<div class="col-md-7">
+											Trained an RNN model to determine the reviews are negative, neutral or positive.
+											<br><br>
+											<a href="https://github.com/minyoleo/Sentiment-Classification" target="_blank">Git連結</a>
+										</div>
+									</div>
+								</div>
+							</div>
+                        </div>
+					</div>
+					
+					<div class="col-md-12"><a name="project5"></a>
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Flower Classification</h4>
+                            </div>
+                            <div class="content">
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-md-5">
+											<img src="assets/img/project5.jpg" width="200px" alt="..."/>
+										</div>
+										<div class="col-md-7">
+											Design and train a deep convolutional network to predict the class label of a flower image.
+											<br><br>
+											<a href="https://github.com/minyoleo/Flower-Classification" target="_blank">Git連結</a>
+										</div>
+									</div>
+								</div>
+							</div>
+                        </div>
+					</div>
+					
+                	<div class="col-md-12"><a name="project4"></a>
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Python爬蟲</h4>
+                            </div>
+                            <div class="content">
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-md-5">
+											<img src="assets/img/project4.png" width="200px" alt="..."/>
+										</div>
+										<div class="col-md-7">
+											<small>
+												使用Python撰寫可以抓取各式網頁的爬蟲程式。
+											<br><br>
+											<a href="https://github.com/lyouoyl/Web_Crawler.git" target="_blank">Git連結</a>
+											</small>
+										</div>
+									</div>
+								</div>
+							</div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12"><a name="project3"></a>
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">商品資料管理系統</h4>
+                            </div>
+                            <div class="content">
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-md-5">
+											<img src="assets/img/project3.png" width="310px" alt="..."/>
+										</div>
+										<div class="col-md-7">
+											<small>
+											使用HTML、CSS、PHP及MySQL製作一個管理商品資料的系統，記錄其名稱、進貨日期、數量、單價及進貨公司相關資料，並可藉由查詢功能搜尋過去相關資料，也可經由修改及刪除功能做更改。
+											<br><br>
+											檔案內容及補充：<br>
+											(1)  主頁index、CSS檔及圖片檔，為網頁主要架構組成。
+											<br>
+											(2)  分頁add、delete、update及select，分別包括新增、刪除、修改及查詢功能。
+											<br>
+											(3)  原始資料store.sql檔，請使用appserv開啟。
+											<br>
+											<a href="https://github.com/lyouoyl/management_system.git" target="_blank">Git連結</a>
+											</small>
+										</div>
+									</div>
+								</div>
+							</div>
+                        </div>
+					</div>	
+					
+                    <div class="col-md-12"><a name="project2"></a>
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">電影影評介紹網站</h4>
+                            </div>
+							<div class="content">
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-md-3">
+											<img src="assets/img/project2.png" width="200px" alt="..."/>
+										</div>
+										<div class="col-md-9">
+											<small>
+											使用HTML及CSS製作一個電影及影評網站的介紹網頁，首頁介紹IMDB影評網，再從其歷史排行榜中選出三部排行較高的電影另作介紹。在外部連結則附上其他知名影評網站的入口，並在精選電影處選出自己推薦的三部電影做幻燈片輪播簡介。 
+											<br><br>
+											檔案內容及補充：<br>
+											(1)  主頁index一頁，包含基本網站架構及IMDB網站介紹。
+											<br>
+											(2)  分頁page1、page2、page3，分別介紹三部經典電影，呈現於Iframe。
+											<br>
+											(3)  行動版網頁使用CSS的RWD功能製作。
+											<br>
+											<a href="https://github.com/lyouoyl/movie.git" target="_blank">Git連結</a>
+											</small>
+										</div>
+									</div>
+								</div>
+							</div>
+                        </div>
+                    </div>
+					
+                    <div class="col-md-12"><a name="project1"></a>
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">成績分布計算系統</h4>
+                            </div>
+							<div class="content">
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-md-3">
+											<img src="assets/img/project1.png" width="170px" alt="..."/>
+										</div>
+										<div class="col-md-9">
+											<small>
+											使用C語言撰寫一支可以從外部匯入成績檔案，然後自動計算出各項數據及畫出成績分布圖的程式。
+											<br><br>
+											功能：<br>
+											(1)  可經由外部檔案匯入成績資料。
+											<br>
+											(2)  製作成績分布圖表。
+											<br>
+											(3)  計算出平均、第一(第二)四分位數、中位數。
+											<br>
+											<a href="https://github.com/lyouoyl/grade_calculator.git" target="_blank">Git連結</a>
+											</small>
+										</div>
+									</div>
+								</div>
+							</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+		
+		
+		
+        <footer class="footer">
+            <div class="container-fluid">
+                <nav class="pull-left">
+                    <ul>
+                        <li>Thank You For Watching</li>                         							
+                        <li>Contact Me :</li>                         
+                        <li><a href="mailto:minyoleo@gmail.com">minyoleo@gmail.com</a></li>			                          	
+						<li><a>0963907179</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+</div>
+
+
+</body>
+
+    <!--   Core JS Files   -->
+    <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+	<!--  Checkbox, Radio & Switch Plugins -->
+	<script src="assets/js/bootstrap-checkbox-radio.js"></script>
+
+	<!--  Charts Plugin -->
+	<script src="assets/js/chartist.min.js"></script>
+
+    <!--  Notifications Plugin    -->
+    <script src="assets/js/bootstrap-notify.js"></script>
+
+    <!-- Paper Dashboard Core javascript and methods for Demo purpose -->
+	<script src="assets/js/paper-dashboard.js"></script>
+
+	<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+	<script src="assets/js/demo.js"></script>
+	
+	<script type="text/javascript">
+    	$(document).ready(function(){
+        	demo.initChartist();
+    	});
+	</script>
+</html>
